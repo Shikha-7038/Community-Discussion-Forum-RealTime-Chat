@@ -328,18 +328,6 @@ View typing indicators
 ```
 ---
 
-## 🐛 Troubleshooting
-
-| Issue | Solution |
-| ---------------- |
-| **MongoDB connection error** | Check your MongoDB URI in .env, ensure network access allows all IPs in Atlas |
-| **Socket.IO not connecting** | Verify backend is running on port 5000, check CORS settings |
-| **Red files in VS Code** | Create empty files or copy code from above |
-| **Tailwind styles not working** | Run npm run dev again, check tailwind.config.js |
-| **API 404 errors** | Ensure backend is running, check route paths |
-| **Login fails** | Check user exists in database, verify password length (min 6 chars) |
-
-
 ## 📈 Learning Outcomes
 After completing this project, you will understand:
 
